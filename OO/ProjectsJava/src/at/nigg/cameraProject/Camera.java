@@ -63,12 +63,14 @@ public class Camera {
         }
     }
 
-    public void getFreeMemoryOfSD() {
+    public double getFreeMemoryOfSD() {
         if (this.sdCard == null) {
             System.out.println("There is no SD Card");
+            return 0;
         } else {
             double freeMemory = this.sdCard.getCapacity() - this.sdCard.getUsedCapacity();
             System.out.println("Freier Speicher: " + freeMemory);
+            return freeMemory;
         }
     }
 
