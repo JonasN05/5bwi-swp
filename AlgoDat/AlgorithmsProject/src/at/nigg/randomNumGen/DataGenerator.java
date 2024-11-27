@@ -36,4 +36,19 @@ public class DataGenerator {
         }
     }
 
+    public static void printArraySelfMade(int[] data) {
+        int lowestNumber = 1000000;
+        for (int i = 0; i < data.length; i++) {
+            for (int j = 0; j < data.length; j++) {
+                if (lowestNumber > data[j]) {
+                    lowestNumber = data[j];
+                    System.out.println(lowestNumber);
+                    data[i] = data[j];
+                }
+            }
+            lowestNumber = 100;
+        }
+        System.out.println(Arrays.toString(data));
+    }
+
 }
