@@ -36,9 +36,9 @@ public class DataGenerator {
         }
     }
 
-    public static void printArraySelfMade(int[] data) {
-        int lowestNumber = 100000;
-        int indexOfLowestNumber = 1000000;
+    public static void printArraySelfMade(int[] data, int max) {
+        int lowestNumber = max + 1;
+        int indexOfLowestNumber = max + 1;
         int[] newArr = new int[data.length];
         for (int i = 0; i < data.length; i++) {
             for (int j = 0; j < data.length; j++) {
@@ -49,7 +49,7 @@ public class DataGenerator {
                 }
             }
             lowestNumber = 100;
-            data[indexOfLowestNumber] = 1000000;
+            data[indexOfLowestNumber] = max + 1;
         }
         System.out.println(Arrays.toString(newArr));
     }
