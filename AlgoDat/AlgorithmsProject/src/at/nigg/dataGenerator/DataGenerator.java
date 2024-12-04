@@ -1,4 +1,4 @@
-package at.nigg.randomNumGen;
+package at.nigg.dataGenerator;
 
 import java.util.Arrays;
 import java.util.Random;

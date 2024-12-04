@@ -1,4 +1,4 @@
-package at.nigg.randomNumGen;
+package at.nigg.dataGenerator;
 
 public class Main {
     public static void main(String[] args) {
