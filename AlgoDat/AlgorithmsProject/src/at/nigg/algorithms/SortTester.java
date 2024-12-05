@@ -7,5 +7,4 @@ public class SortTester {
     public SortTester(Sorter sorter) {
 
     }
-
 }
