@@ -26,14 +26,13 @@ public class DataGenerator {
     }
 
     public static void printArray(int[] data) {
-        Arrays.sort(data);
         System.out.println(Arrays.toString(data));
 
-        System.out.println("------------------------------");
+        // System.out.println("------------------------------");
 
-        for (int i : data) {
-            System.out.println(i);
-        }
+        // for (int i : data) {
+        // System.out.println(i);
+        // }
     }
 
     public static void printArraySelfMade(int[] data, int max) {

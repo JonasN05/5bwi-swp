@@ -2,6 +2,9 @@ package at.nigg.algorithmsProject.algorithms;
 
 public class InsertionSort implements Sorter {
 
+    // https://www.geeksforgeeks.org/insertion-sort-algorithm/
+    // https://www.w3schools.com/dsa/dsa_algo_insertionsort.php
+
     private String name;
 
     public InsertionSort(String name) {
