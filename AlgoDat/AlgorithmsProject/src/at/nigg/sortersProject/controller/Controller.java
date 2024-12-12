@@ -1,12 +1,12 @@
-package at.nigg.algorithmsProject.controller;
+package at.nigg.sortersProject.controller;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-import at.nigg.algorithmsProject.algorithms.Sorter;
-import at.nigg.algorithmsProject.dataGenerator.DataGenerator;
+import at.nigg.sortersProject.algorithms.Sorter;
+import at.nigg.sortersProject.dataGenerator.DataGenerator;
 
 public class Controller {
 

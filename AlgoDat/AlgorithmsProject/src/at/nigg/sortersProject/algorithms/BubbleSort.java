@@ -1,4 +1,4 @@
-package at.nigg.algorithmsProject.algorithms;
+package at.nigg.sortersProject.algorithms;
 
 public class BubbleSort implements Sorter {
 
