@@ -1,4 +1,4 @@
-package at.nigg.dataGenerator;
+package at.nigg.algorithmsProject.dataGenerator;
 
 import java.util.Arrays;
 import java.util.Random;

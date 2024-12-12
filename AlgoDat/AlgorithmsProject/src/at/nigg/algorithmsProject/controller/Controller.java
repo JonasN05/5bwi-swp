@@ -1,11 +1,11 @@
-package at.nigg.controller;
+package at.nigg.algorithmsProject.controller;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-import at.nigg.algorithms.Sorter;
+import at.nigg.algorithmsProject.algorithms.Sorter;
 
 public class Controller {
 

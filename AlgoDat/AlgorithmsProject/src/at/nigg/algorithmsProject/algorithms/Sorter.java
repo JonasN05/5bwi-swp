@@ -1,4 +1,4 @@
-package at.nigg.algorithms;
+package at.nigg.algorithmsProject.algorithms;
 
 public interface Sorter {
     public String getName();

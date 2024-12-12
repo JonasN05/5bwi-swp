@@ -1,9 +1,9 @@
-package at.nigg.controller;
+package at.nigg.algorithmsProject.controller;
 
-import at.nigg.algorithms.BubbleSort;
-import at.nigg.algorithms.InsertionSort;
-import at.nigg.algorithms.SelectionSort;
-import at.nigg.algorithms.Sorter;
+import at.nigg.algorithmsProject.algorithms.BubbleSort;
+import at.nigg.algorithmsProject.algorithms.InsertionSort;
+import at.nigg.algorithmsProject.algorithms.SelectionSort;
+import at.nigg.algorithmsProject.algorithms.Sorter;
 
 public class Gui {
     public static void main(String[] args) {
