@@ -7,14 +7,20 @@ const Menu = (props: Props) => {
     return (
         <div>
             <ul className='flex '>
-                <li className='p-2 hover:bg-amber-100'>
-                    <Link href="/cars">Cars</Link >
-                </li>
-                <li className='p-2 hover:bg-amber-100'>
-                    <Link href="/trucks">Trucks</Link >
-                </li>
+                <Link href="/">
+                    <li className='p-2 hover:bg-amber-100'>Home</li>
+                </Link>
+                <Link href="/cars">
+                    <li className='p-2 hover:bg-amber-100'>Cars</li>
+                </Link>
+                <Link href="/trucks">
+                    <li className='p-2 hover:bg-amber-100'>Trucks</li>
+                </Link>
+                <Link href="/todos">
+                    <li className='p-2 hover:bg-amber-100'>ToDos</li>
+                </Link>
             </ul>
-        </div>
+        </div >
     )
 }
 

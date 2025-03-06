@@ -9,3 +9,10 @@ export interface Motor {
     name: string,
     horsepower: number,
 }
+
+export interface Item {
+    id: string;
+    name: string;
+    description: string;
+    createdAt: string;
+}

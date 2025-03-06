@@ -56,9 +56,11 @@ type Props = {}
 
 const CarContainer = (props: Props) => {
     return (
-        <div className='flex justify-center items-center flex-col'>
-            <div className='mb-5 text-lg'>Car Container</div>
-            {cars.map((car: Car) => <CarCard car={car}></CarCard>)}
+        <div className='flex justify-center items-center flex-col w-full'>
+            <div className='mb-5 text-5xl font-bold'>My Cars</div>
+            <div className='grid grid-cols-4 gap-5 w-full p-5'>
+                {cars.map((car: Car) => <CarCard car={car}></CarCard>)}
+            </div>
         </div>
     )
 }
