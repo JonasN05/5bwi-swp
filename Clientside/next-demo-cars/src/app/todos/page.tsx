@@ -21,7 +21,7 @@ const page = (props: Props) => {
     }, [])
 
     return (
-        <div>
+        <div className='flex flex-col justify-center'>
             {toDos.map((todo) => (
                 <ToDo toDo={todo}></ToDo>
             ))
